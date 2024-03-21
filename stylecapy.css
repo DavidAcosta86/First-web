@@ -1,0 +1,98 @@
+body {
+  background-color: burlywood;
+  margin: 0px;
+  padding: 1% 1%;
+}
+
+.roboto-slab-msroboto {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: Roboto Slab, helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  font-family: Roboto Slab, helvetica, sans-serif;
+  color: rgb(124, 75, 11);
+}
+#logo {
+  width: 6%;
+  border: 1px solid rgb(49, 41, 4);
+}
+#lote {
+  padding-left: 1%;
+}
+header {
+  border: 1px solid beige;
+  padding: 1% 10%;
+}
+ul {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex: 1 1 auto;
+  margin: 0;
+  gap: 5%;
+}
+.navis {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: row wrap;
+}
+
+.subti {
+  padding: 0;
+  margin: 0px;
+  display: flex;
+  flex-basis: 50%;
+  flex-flow: row wrap;
+  align-items: flex-start;
+}
+.subnav {
+  padding: 0;
+  margin: 0px;
+  margin: 0px;
+
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: space-between;
+}
+main {
+  background-color: antiquewhite;
+  padding: 1%;
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1 0 auto;
+}
+.titmain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lista {
+  border: 1px solid yellow;
+    padding: 0;
+  margin: 0px;
+  margin: 0px;
+
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: space-between;
+}
+.element {
+  display: flex;
+  flex-shrink: 1;
+   flex-direction: column;
+}
+.tb{
+    height: auto;
+    width: auto;
+}
+
