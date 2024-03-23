@@ -1,7 +1,7 @@
 body {
-  background-color: burlywood;
+  background-color: antiquewhite;
   margin: 0px;
-  padding: 1% 1%;
+  
 }
 
 .roboto-slab-msroboto {
@@ -9,6 +9,13 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+.button {
+  background-color: rgb(221, 111, 8);
+  border-radius: 10px;
+  flex-basis: 100px;
+  height: auto;
+  width: auto;
 }
 
 h1 {
@@ -29,6 +36,7 @@ a {
 header {
   border: 1px solid beige;
   padding: 1% 10%;
+  background-color: rgb(197, 131, 45);
 }
 ul {
   padding: 0px;
@@ -65,34 +73,82 @@ ul {
   justify-content: space-between;
 }
 main {
-  background-color: antiquewhite;
-  padding: 1%;
+  
   display: flex;
-  flex-flow: column wrap;
-  flex: 1 0 auto;
+  flex-flow: column;
+  align-content: center;
+}
+.lista {
+ 
+  flex-wrap: wrap;
+  padding: 20px 20px;
+
+  display: flex;
+  justify-content: center;
 }
 .titmain {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.lista {
-  border: 1px solid yellow;
-    padding: 0;
-  margin: 0px;
-  margin: 0px;
-
-  display: flex;
-  flex: 1 0 auto;
-  justify-content: space-between;
-}
 .element {
-  display: flex;
-  flex-shrink: 1;
-   flex-direction: column;
+  margin: 10px;
+  width: 250px;
+  border: 0.5vh solid rgb(119, 69, 3);
+  border-radius: 35px;
+  border-style: inset;
+
+  text-align: center;
 }
-.tb{
-    height: auto;
-    width: auto;
+.tb {
+  border-radius: 35px;
+
+  max-width: 100%;
+  max-height: 100%;
 }
 
+.cita {
+  background-color: rgb(219, 197, 168);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 10%;
+}
+.txt-cita {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+}
+.firma {
+  align-self: flex-end;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+}
+.call {
+  color: antiquewhite;
+  margin: 2vh 4ch;
+  padding: 2%;
+  background-color: rgb(92, 45, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.invite {
+  font-size: 20px;
+  font-weight: 800;
+}
+.invite2 {
+  font-size: 12px;
+  font-family: Helvetica, sans-serif;
+}
+
+footer{
+  display: flex;
+  background-color: rgb(197, 131, 45);
+  padding: 1%;
+  align-items: center;
+  justify-content: center;
+}
