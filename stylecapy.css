@@ -106,7 +106,10 @@ main {
   max-width: 100%;
   max-height: 100%;
 }
-
+.fohe{
+  max-width: 100%;
+  max-height: 100%;
+}
 .cita {
   background-color: rgb(219, 197, 168);
   display: flex;
